@@ -43,6 +43,7 @@ return {
         css = { 'prettier' },
         scss = { 'prettier' },
         htmlangular = { 'prettier' },
+        json = { 'prettier' },
       },
     },
   },

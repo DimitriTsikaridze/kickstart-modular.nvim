@@ -192,6 +192,7 @@ return {
         html = {},
         cssls = {},
         emmet_ls = {},
+        tailwindcss = {},
         jsonls = {
           settings = {
             json = {
