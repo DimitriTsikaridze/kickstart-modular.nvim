@@ -193,6 +193,7 @@ return {
         cssls = {},
         emmet_ls = {},
         tailwindcss = {},
+        prettier = {},
         jsonls = {
           settings = {
             json = {
