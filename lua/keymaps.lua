@@ -36,20 +36,6 @@ vim.keymap.set('n', '<A-k>', ':m .-2<CR>==')
 vim.keymap.set('x', '<A-j>', ":move '>+1<CR>gv-gv")
 vim.keymap.set('x', '<A-k>', ":move '<-2<CR>gv-gv")
 
-vim.keymap.set('n', '<C-1>', '<Cmd>BufferGoto 1<CR>', { desc = 'Go to buffer 1' })
-vim.keymap.set('n', '<C-2>', '<Cmd>BufferGoto 2<CR>', { desc = 'Go to buffer 2' })
-vim.keymap.set('n', '<C-3>', '<Cmd>BufferGoto 3<CR>', { desc = 'Go to buffer 3' })
-vim.keymap.set('n', '<C-4>', '<Cmd>BufferGoto 4<CR>', { desc = 'Go to buffer 4' })
-vim.keymap.set('n', '<C-5>', '<Cmd>BufferGoto 5<CR>', { desc = 'Go to buffer 5' })
-vim.keymap.set('n', '<C-6>', '<Cmd>BufferGoto 6<CR>', { desc = 'Go to buffer 6' })
-vim.keymap.set('n', '<C-7>', '<Cmd>BufferGoto 7<CR>', { desc = 'Go to buffer 7' })
-vim.keymap.set('n', '<C-8>', '<Cmd>BufferGoto 8<CR>', { desc = 'Go to buffer 8' })
-vim.keymap.set('n', '<C-9>', '<Cmd>BufferGoto 9<CR>', { desc = 'Go to buffer 9' })
-vim.keymap.set('n', '<C-,>', '<Cmd>BufferPrevious<CR>', opts)
-vim.keymap.set('n', '<C-.>', '<Cmd>BufferNext<CR>', opts)
-vim.keymap.set('n', '<C-<>', '<Cmd>BufferMovePrevious<CR>', opts)
-vim.keymap.set('n', '<C->>', '<Cmd>BufferMoveNext<CR>', opts)
-
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
